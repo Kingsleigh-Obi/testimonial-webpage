@@ -1,0 +1,441 @@
+body
+{
+    height: 100vh;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: rgb(237,242,248);
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-auto-rows: minmax(80px,auto);
+    /* border: 1px solid red; */
+    gap: 1.5rem;
+}
+
+/* Daniel begins */
+.Daniel
+{
+   background-color: hsl(263, 55%, 52%);
+   padding-bottom: 0;
+   grid-column: 1/4;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 10px;
+}
+
+.person-flexbox
+{
+    display: flex;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.person-flexbox img
+{
+    border-radius: 50%;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 81%);
+}
+
+.personal-info
+{
+    margin-left: 10px;
+    color: hsl(0, 0%, 81%);
+}
+
+.personal-info > .name
+{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.personal-info > .graduate
+{
+    margin-top: -20px;
+    opacity: 50%;
+}
+
+svg
+{
+    margin-left: 170px;
+    opacity: 50%;
+}
+
+
+.main-description
+{
+    margin-top: -40px;
+    color: hsl(0, 0%, 100%);
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.sub-description
+{
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+/* Jonathan begins */
+.Jonathan
+{
+    background-color: hsl(217, 19%, 35%);
+    padding-bottom: 0;
+    grid-column: 4/6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.person-flexbox-jon
+{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.person-flexbox-jon img
+{
+    border-radius: 50%;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 81%);
+}
+
+
+.main-description-jon
+{
+    margin-top: 0px;
+    color: hsl(0, 0%, 100%);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.main-description-jon p
+{
+    width: 83%;
+}
+
+.sub-description-jon
+{
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.sub-description-jon p
+{
+    width: 93%;
+}
+
+/* Jeanette begins */
+
+.Jeanette
+{
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 0;
+    grid-column: 1/3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.person-flexbox-jean
+{
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.person-flexbox-jean  .name
+{
+    color: hsl(217, 19%, 35%);
+}
+
+.person-flexbox-jean .graduate
+{
+    color: hsl(217, 19%, 35%);
+}
+
+.person-flexbox-jean img
+{
+    border-radius: 50%;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 81%);
+}
+
+.main-description-jean
+{
+    margin-top: 0px;
+    color: hsl(0, 0%, 100%);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 17px;
+    color: hsl(217, 19%, 35%);
+}
+
+.sub-description-jean
+{
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+/* Patrick begins */
+.Patrick
+{
+    background-color: hsl(219, 29%, 14%);
+    padding-bottom: 0;
+    grid-column: 3/6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.person-flexbox-pat
+{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.person-flexbox-pat  .name
+{
+    color: hsl(217, 19%, 35%);
+}
+
+.Patrick .personal-info > .name
+{
+    color: hsl(0, 0%, 81%);
+}
+
+.Patrick .personal-info > .graduate
+{
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+}
+
+.person-flexbox-pat img
+{
+    border-radius: 50%;
+    height: 40px;
+    border: 1px solid hsl(263, 81%, 58%);;
+}
+
+.main-description-pat
+{
+    margin-top: -10px;
+    color: hsl(0, 0%, 100%);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.sub-description-pat
+{
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+/* Kira begins */
+.Kira
+{
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 0;
+    grid-column: 6/8;
+    grid-row: 1/3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.person-flexbox-kira
+{
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.person-flexbox-kira  .name
+{
+    color: hsl(217, 19%, 35%);
+}
+
+.person-flexbox-kira .graduate
+{
+    color: hsl(217, 19%, 35%);
+}
+
+.person-flexbox-kira img
+{
+    border-radius: 50%;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 81%);
+}
+
+.main-description-kira
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: hsl(0, 0%, 100%);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 17px;
+    color: hsl(217, 19%, 35%);
+}
+
+.sub-description-kira
+{
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.attribution
+{
+    width: 40%;
+    margin: 10px auto;
+}
+
+.attribution a
+{
+    text-decoration: none;
+    color: hsl(263, 55%, 52%);
+}
+
+/* for mobile display */
+@media(max-width: 414px)
+{
+    body
+    {
+        height: 100vh;
+        padding: 10px;
+        font-size: 15px;
+        font-family: "Barlow Semi Condensed", sans-serif;
+        background-color: rgb(237,242,248);
+    }
+
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }   
+
+    /* Daniel begins */
+    .Daniel
+    {
+        background-color: hsl(263, 55%, 52%);
+        padding-bottom: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+    }
+
+    .person-flexbox
+    {
+        display: flex;
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .person-flexbox img
+    {
+        border-radius: 50%;
+        height: 40px;
+        border: 1px solid hsl(0, 0%, 81%);
+    }
+
+    .personal-info
+    {
+        margin-left: 10px;
+        color: hsl(0, 0%, 81%);
+    }
+
+    .personal-info > .name
+    {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .personal-info > .graduate
+    {
+        margin-top: -20px;
+        opacity: 50%;
+    }
+
+    svg
+    {
+        margin-left: 20px;
+        opacity: 50%;
+    }
+
+
+    .main-description
+    {
+        margin-top: -40px;
+        color: hsl(0, 0%, 100%);
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+
+    .sub-description
+    {
+        color: hsl(0, 0%, 81%);
+        opacity: 50%;
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 500;
+    }
+
+    .attribution
+    {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+}
